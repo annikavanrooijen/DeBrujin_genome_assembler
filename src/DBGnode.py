@@ -1,7 +1,7 @@
 class DBGnode:
 
     def __init__(self, k_mere_seq):
-        # Initialize a de Bruijn graph node with its k-mer sequence
+        '''Initialize a de Bruijn graph node with its k-mer sequence'''
         self.k_mere_seq = k_mere_seq
         self.edges_to = {}
         self.edges_from = {}
